@@ -14,7 +14,7 @@
 
 
 
-    <title>ЛЮБИМАЯ ЕДА</title>
+    <title>Любимая еда</title>
 
     <meta name="keywords" content="title,icon,url">
     <meta name="description" content="Сайт компании занимающейся доставкой обедов">
@@ -33,7 +33,7 @@
 <body>
     <header class="header">
 
-
+        <a name = "home"></a>
         <section class="section header__menu">
             <div class="container header__navigate">
                 <div class="logo">
@@ -41,11 +41,11 @@
                 </div>
 
                 <ul class="header__list-nav">
-                    <li class="header__list-item">О компании</li>
-                    <li class="header__list-item">Меню</li>
-                    <li class="header__list-item">Оплата</li>
-                    <li class="header__list-item">Доставка</li>
-                    <li class="header__list-item">Контакты</li>
+                    <li><a href="#about-company" class="header__list-item"> О компании</a></li>
+                    <li><a href="#menu" class="header__list-item">Меню</a></li>
+                    <li><a href="#" class="header__list-item">Оплата</a></li>
+                    <li><a href="#" class="header__list-item">Доставка</a></li>
+                    <li><a href="#review" class="header__list-item">Контакты</a></li>
                 </ul>
 
                 <div class="header__menu-phonecall">
@@ -80,13 +80,18 @@
                     <p>Изобилие готовых и вкусных блюд, предлагаемых нашей компанией, позволяет удовлетворить любые
                         потребности в еде.</p>
                     <a href="#" class="button-orange">Подробнее</a>
+                    
                 </div>
+                
                 <div class="orange__half">
                     <img class="gish-img2" src="img/half.png" alt="">
                     <img class="gish-img1" src="img/gish.png" alt="">
                 </div>
+                
             </div>
+            
         </section>
+        <a name="menu"></a>  
         <section class="section menu-dish">
             <div class="popup-window popup-window--hidden">
                 <div class="dish-popup">
@@ -99,7 +104,9 @@
                             <p class="dish-popup__dish-weight">476 г.</p>
 
                         </div>
+                        
                     </div>
+                    
                     <div class="dish-popup__settings">
                         <form>
                             <div class="dish-popup__settings-add">
@@ -110,10 +117,14 @@
                             </div>
                             <input class="dish-popup__to-order-btn" type="submit" value="Добавить в корзину">
                         </form>
+                        
                     </div>
+                     
                 </div>
+                   
             </div>
             <div class="container menu_dishes">
+                
                 <h3>Меню</h3>
                 <div class="menu-dish__list">
                     <div class="menu-dish__item">
@@ -158,16 +169,21 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="menu-switching__arrows">
                     <a href="#" class="menu-switching__left-arrow">
                         <img src="img/arrow1_icon.png">
                     </a>
                     <a href="#" class="menu-switching__right-arrow">
                         <img src="img/arrow1_icon.png">
+                        
                     </a>
+                    <a name="about-company"></a>
                 </div>
+                
             </div>
         </section>
+        
         <section class="section about-company">
             <div class="container about-company_container">
                 <div class="about-company__content">
@@ -229,6 +245,7 @@
                 </div>
             </div>
         </section>
+        <a name="review"></a>
         <section class="section review">
             <div class="container review__item">
                 <div class="review__item-text">
@@ -240,12 +257,21 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <section class="section lunch-cost">
             <div class="container"></div>
         </section>
         <section class="section footer-menu">
-            <div class="container"></div>
+            <div class="container">
+                <ul class="footer__list-nav">
+                    <li><a href="#home" class="footer__list-item">Главная</a></li>
+                    <li><a href="#about-company" class="footer__list-item"> О компании</a></li>
+                    <li><a href="#menu" class="footer__list-item">Меню</a></li>
+                    <li><a href="#" class="footer__list-item">Оплата</a></li>
+                    <li><a href="#" class="footer__list-item">Доставка</a></li>
+                    <li><a href="#review" class="footer__list-item">Контакты</a></li>
+                </ul>
+            </div>
         </section>
     </footer>
 
