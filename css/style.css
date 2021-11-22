@@ -789,6 +789,69 @@ h3 {
     outline: none;
 }
 /*----------------------- footer --------------------------*/
+.footer___first-text{
+    padding-top: 98px;
+    color: white;
+    margin-top: 0;
+}
+
+.footer___last-text{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400px;
+    
+}
+.button-orange2 {
+	background-color: #EF8B26;
+	transition: 0.3s;
+
+    cursor: pointer;
+}
+.read-line__fhree{
+    padding: 15px;
+    color: white;
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 351px;
+    margin-top: 22px;
+    font-size: 14px;
+}
+.read-line__one{
+    
+    padding: 15px;
+    color: white;
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 127px;
+    font-size: 14px;
+}
+input[type="text"]::-moz-placeholder {
+    color: #A2A5AF;
+   }
+   input[type="text"]::-webkit-input-placeholder {
+    color: #A2A5AF;
+   }
+.read-line__two{
+    
+    padding: 15px;
+    color: white;
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 172px;
+    margin-left: 16px;
+}
+.read__info{
+    display: flex;
+    flex-direction: column;
+}
+.border__read-line{
+    margin-top: 39px;
+}
+
+
 .footer{
     background-image: url(../img/footer-Bg.png);
     height: 812px;
